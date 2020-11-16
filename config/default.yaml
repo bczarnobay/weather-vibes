@@ -1,0 +1,11 @@
+server:
+  port: 3333
+# mongo:
+#   url: 'mongodb+srv://admin:admin@cluster01.nj79u.mongodb.net/bank?retryWrites=true&w=majority'
+weatherApi:
+  apiKey: 78cc34d68409982a60b863940462aae5
+  url: http://api.openweathermap.org/data/2.5/
+spotifyApi:
+  clientId: 2c4f9aa0ff6548b3a8ddbb45d0ccbdd0
+  clientSecret: 20ea126414214aa789dac256c119f9bc
+  url: https://api.spotify.com/v1/recommendations?
