@@ -8,4 +8,5 @@ const routes = Router()
 routes.get('/weather/:city', WeatherController.view)
 routes.get('/music/:genre', SpotifyController.getMusic)
 routes.get('/vibes/:city', VibesController.view)
+
 export default routes

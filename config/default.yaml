@@ -9,3 +9,4 @@ spotifyApi:
   clientId: 2c4f9aa0ff6548b3a8ddbb45d0ccbdd0
   clientSecret: 20ea126414214aa789dac256c119f9bc
   url: https://api.spotify.com/v1/recommendations?
+  authUrl: https://accounts.spotify.com/api/token
