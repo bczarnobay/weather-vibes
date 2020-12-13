@@ -2,6 +2,7 @@ import express from 'express'
 import routes from './routes'
 import Db from './db'
 import cors from 'cors'
+import cache from './cache'
 
 class App {
   public express: express.Application
@@ -11,6 +12,7 @@ class App {
     this.middlewares()
     this.routes()
     // this.database()
+    this.cache()
   }
 
   private routes (): void {
@@ -25,6 +27,10 @@ class App {
     this.express.use(express.json())
     this.express.use(express.urlencoded())
     this.express.use(cors())
+  }
+
+  private cache (): void {
+    cache.initialize()
   }
 }
 
